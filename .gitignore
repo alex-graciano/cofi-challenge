@@ -1,0 +1,4 @@
+env_name
+pytest-env
+*.pyc
+.pytest_cache
