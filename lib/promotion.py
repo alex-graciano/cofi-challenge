@@ -10,7 +10,9 @@ class Promotion(ABC):
     @abstractmethod
     def check_promotion(items):
         """Abstract public method in which any concrete object should
-        implement the behavior"""
+        implement the behavior. It should return the total for the 
+        promotion and those items where the promotion is not applied in the 
+        pipeline"""
         pass
 
     def _next_promotion(self, remaining_items):
